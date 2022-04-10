@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Biblioteca Virtual</title>
+    <link rel="icon" href="img/biblioteca2.png">
+    <link href="form_book.css" rel=stylesheet media="screen">
+</head>
+<body>
+        <script>
+            alert("Seja bem-vindo a Biblioteca Virtual. \nAqui você vai encontrar registros de livros, e suas devidas informações. \nVocê também pode alterar os resgistros de livros também. \nAproveite!")
+        </script>
+    <div id="formulario">
+        <form id="form" name="nome" method="post" action="include.php">
+            <h1> Registro de Livros </h1>
+            Nome do livro:<br>
+            <input type="text" name="nome" placeholder="Digite o nome do livro" required>
+            <br><br>
+            Autor:<br>
+            <input type="text" name="autor" placeholder="Digite o autor" required>
+            <br><br>
+            Publicado em:<br>
+            <input type="text" name="publi" placeholder="Digite a data de publicação">
+            <br><br>
+            Editora:<br>
+            <input type="text" name="edit" placeholder="Digite a editora">
+            <br><br>
+            Nº de pág.:<br>
+            <input type="text" name="pag" placeholder="Digite o nº de pág">
+            <br><br>
+            <button type="submit" name="cadastrar" id="btn">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
